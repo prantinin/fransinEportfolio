@@ -1,0 +1,26 @@
+@import "constants.css";
+
+.topnavbaritems{
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.topnavbutton{
+    background-color: transparent;
+    border: none;
+    padding: 20;
+    color: var(--black);
+    font-family: var(--OpenSauceSBold);
+    margin-top: 50px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.topnavbutton:hover{
+    color: var(--lightgreen);
+    transition: color 0.5s ease-in-out, color 0.5s ease-in-out;
+}

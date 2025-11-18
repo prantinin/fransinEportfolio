@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr.hori-line{
+    border: 1.5px solid var(--softbrown);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+hr.verti-line{
+    border: none;
+    border-left: 2px solid var(--softbrown);
+    height: auto;
+    width: 0;
+    margin: 0;
+}
+
+hr.light-deco-line{
+    border: 0.5px solid var(--beige2);
+    width: auto;
+}
+
+hr.dark-deco-line{
+    border: 0.5px solid var(--softbrown);
+    width: auto;
+}

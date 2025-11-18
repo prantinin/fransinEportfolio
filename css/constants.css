@@ -1,0 +1,68 @@
+:root{
+
+    /*----------  COLORS  ----------*/
+    --beige1: #e8e6da;
+    --beige2: #dbd1bd;
+    --softbrown: #8a8984;
+    
+    --white: #ffffff;
+    --black: #000000;
+    
+    --lightgreen: #6d906f;
+    --olivegreen: #445339;
+    --darkgreen: #0d3f18;
+
+
+    /*----------  FONTS  ----------*/
+    --CGaramontItalic: 'CGaramontItalic', serif;
+    --CGaramontLight: 'CGaramontLight', serif;
+    --CGaramontLightItalic: 'CGaramontLightItalic', serif;
+    --CGaramontReg: 'CGaramontReg', serif;
+    --CGaramontSBoldIta: 'CGaramontSBoldIta', serif;
+
+    --OpenSauceLight: 'OpenSauceLight', serif;
+    --OpenSauceSBold: 'OpenSauceSBold', serif;
+}
+
+
+/* make sure to clean up and remove initialized fonts
+that you did not use in the whole program*/
+
+@font-face {
+    font-family: 'CGaramontItalic';
+    src: url('../assets/fonts/Cormorant_Garamond/static/CormorantGaramond-Italic.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'CGaramontLight';
+    src: url('../assets/fonts/Cormorant_Garamond/static/CormorantGaramond-Light.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'CGaramontLightItalic';
+    src: url('../assets/fonts/Cormorant_Garamond/static/CormorantGaramond-LightItalic.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'CGaramontReg';
+    src: url('../assets/fonts/Cormorant_Garamond/static/CormorantGaramond-Regular.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'CGaramontSBoldIta';
+    src: url('../assets/fonts/Cormorant_Garamond/static/CormorantGaramond-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSauceLight';
+    src: url('../assets/fonts/open-sauce/OpenSauceTwo-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSauceSBold';
+    src: url('../assets/fonts/open-sauce/OpenSauceTwo-SemiBold.ttf') format('truetype');
+}
