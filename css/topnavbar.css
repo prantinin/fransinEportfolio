@@ -12,11 +12,13 @@
 .topnavbutton{
     background-color: transparent;
     border: none;
+    text-decoration: none;
     padding: 20;
-    color: var(--black);
-    font-family: var(--OpenSauceSBold);
     margin-top: 50px;
     margin-bottom: 15px;
+    color: var(--black);
+    font-family: var(--OpenSauceSBold);
+    font-size: 12px;
     cursor: pointer;
 }
 

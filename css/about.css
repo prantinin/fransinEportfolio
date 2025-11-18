@@ -1,6 +1,6 @@
-@import "constants.css";
 @import "general.css";
 @import "topnavbar.css";
+@import "constants.css";
 
 
 
@@ -212,7 +212,7 @@
 .docscontents{
     align-items: start;
     width: 30vw;
-    margin: 60px 0px;
+    margin: 70px 0px;
 }
 
 .docstitle{
@@ -229,7 +229,8 @@
 }
 
 .docsbutton{
-    color: var(--black);
+    color: var(--beige2);
+    background-color: var(--black);
     font-family: var(--OpenSauceLight);
     font-size: 12px;
 
@@ -237,13 +238,14 @@
     border-style: solid;
     border-radius: 10px;
     border-width: 1px;
-    border-color: var(--black);
+    border-color: var(--beige2);
     padding: 10px;
 
     transition: all 0.3s ease;
 }
 
 .docsbutton:hover{
-    background-color: var(--black);
-    color: var(--beige2);
+    background-color: var(--beige2);
+    color: var(--black);
+    border-color: var(--black);
 }

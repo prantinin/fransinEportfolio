@@ -1,0 +1,48 @@
+@import "general.css";
+@import "topnavbar.css";
+@import "constants.css";
+
+body{
+    background-color: var(--beige2);
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.contactscontents{
+    width: 50vw;
+    margin-bottom: 80px;
+}
+
+.contact-title{
+    color: var(--darkgreen);
+    font-size: 100px;
+    font-family: var(--CGaramontSBoldIta);
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-icon{
+    width: 40px;
+    margin-right: 20px;
+}
+
+.contact-link{
+    text-decoration: none;
+    color: var(--darkgreen);
+    font-size: 35;
+    font-family: var(--OpenSauceSBold);
+}
+
+.contact-link:hover{
+    color: var(--lightgreen);
+    transition: color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
