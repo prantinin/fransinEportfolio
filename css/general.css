@@ -25,6 +25,6 @@ hr.light-deco-line{
 }
 
 hr.dark-deco-line{
-    border: 0.5px solid var(--softbrown);
+    border: 0.5px solid var(--brown);
     width: auto;
 }

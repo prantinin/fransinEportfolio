@@ -1,0 +1,135 @@
+@import "general.css";
+@import "constants.css";
+
+body{
+    background-color: var(--olivegreen);
+}
+
+.proj-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.proj-content{
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.back-content{
+    margin-top: 80px;
+    margin-right: 20px;
+}
+
+.back-button{
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--beige1);
+    border-radius: 50%;
+    border: 2px solid var(--beige1);
+    padding: 15px 15px 20px 15px;
+    width: 60px;
+    height: 60px;
+}
+
+.back-button:hover{
+    background-color: var(--beige1);
+    color: var(--olivegreen);
+    transition: color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.page-title{
+    font-family: var(--CGaramontReg);
+    font-size: 80px;
+    color: var(--beige1);
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+
+.light-deco-line{
+    margin-bottom: 7px;
+}
+
+.projdemo{
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.vid-desc{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.desc{
+    font-family: var(--OpenSauceSBold);
+    color: var(--beige1);
+    margin-left: 40px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gitdiv{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.gitdiv img{
+    width: 25px;
+    height: 25px;
+}
+
+.gitdiv a{
+    text-decoration: none;
+    color: var(--beige2);
+}
+
+.gitdiv a:hover{
+    color: var(--lightgreen);
+    transition: color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.reflections{
+    margin-top: 40px;
+}
+
+.reflectdeets{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.ref-titlearea{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.ref-titlearea img{
+    width: 100px;
+    height: 50px;
+}
+
+.ref-titlearea p{
+    font-family: var(--CGaramontSBoldIta);
+    font-size: 30px;
+    color: var(--beige2);
+}
+
+.ref-desc{
+    font-family: var(--OpenSauceSBold);
+    font-size: 15px;
+    color: var(--beige1);
+}

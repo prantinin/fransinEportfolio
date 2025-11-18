@@ -1,0 +1,63 @@
+@import "general.css";
+@import "topnavbar.css";
+@import "constants.css";
+
+.topnavbar{
+    background-color: var(--beige1);
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background: #9FA57B;
+    background: linear-gradient(180deg, 
+            rgba(159, 165, 123, 1) 0%, 
+            rgba(232, 230, 218, 1) 100%);
+}
+
+.projectscontents{
+    width: 60vw;
+    height: 100vh;
+    margin: 60px 0px;
+}
+
+.page-title{
+    font-family: var(--CGaramontReg);
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.dark-deco-line{
+    margin-bottom: 7px;
+}
+
+.projectlisttile{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+.projectinfo{
+    text-align: left;
+}
+
+.listtilebullet{
+    width: 130px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.project-title{
+    font-family: var(--CGaramontSBoldIta);
+    font-size: 30px;
+    color: var(--darkgreen);
+}
+
+.project-desc{
+    font-family: var(--OpenSauceSBold);
+    font-size: 15px;
+}

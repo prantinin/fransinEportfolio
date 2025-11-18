@@ -167,13 +167,13 @@
 
 
 .bullet-title{
-    color: var(--beige1);
+    color: var(--beige2);
     font-family: var(--CGaramontLightItalic);
     font-size: 30px;
 }
 
 .bullet, .awards {
-    color: var(--beige2);
+    color: var(--beige1);
     font-family: var(--OpenSauceSBold);
     font-size: 14px;
 }

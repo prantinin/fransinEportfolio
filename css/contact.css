@@ -24,6 +24,10 @@ body{
     font-family: var(--CGaramontSBoldIta);
 }
 
+.dark-deco-line{
+    margin-bottom: 7px;
+}
+
 .contact{
     display: flex;
     flex-direction: row;
