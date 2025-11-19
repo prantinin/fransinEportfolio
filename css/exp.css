@@ -1,0 +1,70 @@
+@import "general.css";
+@import "topnavbar.css";
+@import "constants.css";
+
+body{
+    background: #E8E6DA;
+    background: linear-gradient(180deg, 
+        rgba(232, 230, 218, 1) 0%, 
+        rgba(159, 165, 123, 1) 100%);
+    height: 100vh;
+}
+
+.topnavbar{
+    background-color: var(--olivegreen);
+}
+
+.topnavbaritems li {
+    color: var(--beige2) !important; /* this doesn't work rn */
+}
+
+.experiences{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.expcontents{
+    width: 60vw;
+    margin: 60px 0px;
+}
+
+.page-title{
+    font-family: var(--CGaramontReg);
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.dark-deco-line{
+    margin-bottom: 7px;
+}
+
+.timeline{
+    margin-top: 30px;
+    height: 40px;
+}
+
+.expinfo{
+    cursor: pointer;
+}
+
+.expinfo:hover .exp-title{
+    color: var(--lightgreen);
+    transition: color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.expinfo:hover .exp-desc{
+    color: var(--softbrown);
+    transition: color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.exp-title{
+    font-family: var(--CGaramontSBoldIta);
+    font-size: 30px;
+    color: var(--darkgreen);
+}
+
+.exp-desc{
+    font-family: var(--OpenSauceSBold);
+    font-size: 15px;
+}

@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/projects.css">
-    <title>Projects</title>
+    <link rel="stylesheet" href="../css/exp.css">
+    <title>Experiences</title>
 </head>
 <body>
-
-
+    
     <!-- HEADER -->
     <header class="topnavbar">
         <ul class="topnavbaritems">
@@ -17,9 +16,9 @@
                 About
             </button></li>
             <li><button class="topnavbutton"
-                    onclick="location.href='experiences.html'">
-                    Experiences
-                </button></li>
+                onclick="location.href='experiences.html'">
+                Experiences
+            </button></li>
             <li><button class="topnavbutton"
                 onclick="location.href='projects.html'">
                 Projects
@@ -31,26 +30,31 @@
         </ul>
     </header>
     <hr class="hori-line">
-    
+
 
     <!-- MAIN CONTENT -->
-    <div class="projects">
-        <div class="projectscontents">
-            <p class="page-title">PROJECTS</p>
+    <div class="experiences">
+        <div class="expcontents">
+            <p class="page-title">EXPERIENCES</p>
             <hr class="dark-deco-line">
             <hr class="dark-deco-line">
 
-            <!-- LIST TILES -->
-            <div onclick="location.href='projectdetails.html'" class="projectlisttile">
-                <img src="../assets/icons/green_leaf_border.png" class="listtilebullet">
-                <div class="projectinfo">
-                    <p class="project-title">Project Title</p>
-                    <p class="project-desc">A very short description.</p>
+            <!-- TIMELINE -->
+            <div class="timeline">
+                <hr class="verti-line">
+                
+                <div class="expblock">
+                    <span class="dot"></span>
+                    <div class="expinfo"
+                    onclick="location.href='expdetails.html'">
+                        <p class="exp-title">Exp Title</p>
+                        <p class="exp-desc">A very short description.</p>
+                    </div>
                 </div>
-            </div>
-            <hr class="dark-deco-line">
 
+            </div>
         </div>
     </div>
+
 </body>
 </html>
