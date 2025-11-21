@@ -6,6 +6,10 @@ body{
     background-color: var(--beige2);
 }
 
+.topnavbar{
+    background-color: var(--olivegreen);
+}
+
 .contacts{
     display: flex;
     flex-direction: row;
@@ -19,7 +23,7 @@ body{
 }
 
 .contact-title{
-    color: var(--darkgreen);
+    color: var(--olivegreen);
     font-size: 100px;
     font-family: var(--CGaramontSBoldIta);
 }
