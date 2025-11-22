@@ -19,7 +19,6 @@
 
 .projectscontents{
     width: 60vw;
-    height: 100vh;
     margin: 60px 0px;
 }
 
@@ -43,6 +42,17 @@
 
 .projectinfo{
     text-align: left;
+    cursor: pointer;
+}
+
+.projectinfo:hover .project-title{
+    color: var(--lightgreen);
+    transition: color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.projectinfo:hover .project-desc{
+    color: var(--softbrown);
+    transition: color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 .listtilebullet{

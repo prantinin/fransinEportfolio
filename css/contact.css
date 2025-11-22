@@ -10,6 +10,14 @@ body{
     background-color: var(--olivegreen);
 }
 
+.topnavbutton {
+    color: var(--beige2) !important;
+}
+
+.topnavbutton:hover {
+    color: var(--lightgreen) !important;
+}
+
 .contacts{
     display: flex;
     flex-direction: row;

@@ -1,12 +1,44 @@
 [
   {
-    "title": "Inventory System",
-    "desc": "A full POS and inventory solution.",
+    "id": "proj7",
+    "title": "Sharelife: Loan Management System",
+    "desc": "A web application made for Sharelife Consumers Cooperative to oversee the loans it holds for its members.",
     "link": "projectdetails.html"
   },
   {
-    "title": "Portfolio Website",
-    "desc": "A modern portfolio using HTML, CSS, and JS.",
+    "id": "proj6",
+    "title": "Labubuddy: Lab Reservation System",
+    "desc": "A web application for viewing and reserving available seats in DLSU's computer laboratories.",
+    "link": "projectdetails.html"
+  },
+  {
+    "id": "proj5",
+    "title": "ManaHealth: Workout and Meal Planner",
+    "desc": "An interactive prototype of an application that combines meal and fitness planning.",
+    "link": "projectdetails.html"
+  },
+  {
+    "id": "proj4",
+    "title": "Facilities & Resources Record Keeper",
+    "desc": "A Java application for managing the reservation of community resources and facilities.",
+    "link": "projectdetails.html"
+  },
+  {
+    "id": "proj3",
+    "title": "Hotel Reservation System",
+    "desc": "A Java Swing application for managing hotel room selection, viewing, and reservation.",
+    "link": "projectdetails.html"
+  },
+  {
+    "id": "proj2",
+    "title": "State of Global Air Dataset Manager",
+    "desc": "An application made using C that sorts the mentioned dataset in terms of meaningful questions.",
+    "link": "projectdetails.html"
+  },
+  {
+    "id": "proj1",
+    "title": "Elevens Game",
+    "desc": "The classic game elevens reimagined through C, run on the command line and implementing a colored interface.",
     "link": "projectdetails.html"
   }
 ]

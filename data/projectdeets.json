@@ -1,0 +1,65 @@
+[
+    {
+        "id": "proj7",
+        "projTitle": "Sharelife: Loan Management System",
+        "demo": "",
+        "gitLink": "https://github.com/nakaraan/cssweng-s12-unbound-sharelife",
+        "desc": "A web application made using the Dart programming language with, utilizing a Flutter framework. This was developed to address the client organization, Sharelife Consumer's Cooperative's need for a digitized version for handling their loans. There are 3 roles: admin, encoder, and member, all with different overarching tasks and priveleges.",
+        "contrib": "Our group consisted of 9 members, with each one playing a significant role in the development of our project. Mine was to lead the front-end development team, which was made up of 3 people, throughout the duration of the term. Some of my main duties included organizing meetings, delegating tasks, and assigning internal deadlines by which we must finish our tasks. I was also in charge of quality control which meant that before our side of the project is turned over to other teams, I make sure that the front-end fully realizes the specifications and the needs of our client organization.",
+        "learned": "In terms of soft skills, I believe that I've grown as a leader as I've learned how to adapt to my fellow groupmates' tendencies. I've learned how to assign tasks in a matter that matches their capabilities while also giving them sufficient time to finish the task and recuperate. Though this is not a skill I've 'learned' per se, but I believe that I have gotten better at communicating with others and setting clear expectations for the project requirements. There was this one feature whose purpose we couldn't understand even after the previous meetings we've held with our client. I reached out to our product owner regarding this concern and we were able to concretize our plans for this feature. In terms of technical skills, I've learned how to code using the Dart programming language, following the Flutter framework, as well as implement modularity into the project. Lastly, I gained practical skills in learning how to document our project's coding standards and good practices."
+    },
+    {
+        "id": "proj6",
+        "projTitle": "Labubuddy: Lab Reservation System",
+        "demo": "",
+        "gitLink": "https://github.com/prantinin/CCAPDEV-Grp3",
+        "desc": "Developed as a major requirement for our course on application development, this app was made using HTML, Bootstrap, JS, and MongoDB for students and administrators alike to reserve, cancel, and view available and non-available slots given a certain time period.",
+        "contrib": "Much like my other projects, I led the group and was in charge of management of the development of the app. I created the directory of our project and all the templates by which all the members had to follow. I initiated meetings where we discuss core functionalities of the application, its overall user interface, problems we were currently facing, and deadlines by which we needed all of our requirements to be finished by.",
+        "learned": "This project taught me how to create web applications that utilized HTML, CSS, JS, and Bootstrap. More specifically, I learned how to build an application from its user interface, to management on the back-end via MongoDB, and implementing security measures within the login pages which separated admin and student roles. A recurring ability that I have is being able to back up my groupmates when we needed it the most. Whenever we spent late nights cramming our project before its deadline, I made sure that everything from the front, back, and security sides are all working as intended."
+    },
+    {
+        "id": "proj5",
+        "title": "ManaHealth: Workout and Meal Planner",
+        "demo": "",
+        "gitLink": "https://www.figma.com/proto/mpjePA1W5mI8hEJF44JgGu/Iteration-3?node-id=122-1018&t=AKlf0nBCbE4tnYkb-1",
+        "desc": "A user interface prototype made on Figma of an application that incorporates exercise and meal planning, along with personal goals and statuses that one can view.",
+        "contrib": "This project was developed in fulfillment of our requirements for our course on human and computer interaction, and the basics on the implementation of proper user interfaces that enhances user experience. Our group consisted of 9 members, myself included, and I lead the team through the entire process of our prototype-making. Besides the basic responsibilities of a leader, I also conducted the need-finding survey and usability tests for our product.",
+        "learned": "The lack of responsiveness from my group's end caused me to do almost everything entirely by myself. I learned how to conduct a need-finding study where we assess how much of a need the purpose of our application poses in the real world. This project also taught me to be proficient in iterating through multiple prototypes in order to improve the said product, which, in turn, taught me the basics of Figma. Through every iteration, I conducted usability tests that tested our application's UI and gained an actual user's opinion on it. Although it was a failure in my part that I was not able to get my team on the same page, I believe that I did everything I could to do so."
+    },
+    {
+        "id": "proj4",
+        "title": "Facilities & Resources Record Keeper",
+        "demo": "https://github.com/joaquin1219/CommunityDB",
+        "gitLink": "",
+        "desc": "A Java/MySQL application for managing (e.g. reservations, cancellations, updating, and viewing) different facilities and resources of a community.",
+        "contrib": "Through our course on data and information management, we were introduced to the basics of data manipulation through MySQL. This project as well, I took the leadership role and made sure that everyone was up to the standards and deadlines that we've set for ourselves beforehand. This project was larger in scale than other projects I've handled before. It was a collaboration between three groups sharing one database. We faced challenges such as collisions between certain tables and losses in populated data but overall, we made it work. This project made me realize that I truly enjoyed being able to support fellow teammates in any way I could. Once, I helped one of my groupmates understand how the tables work late in the morning. Later, he turned into a good friend of mine. When I encountered problems with my own group, he also pulled through and taught me how to fix my mistakes.",
+        "learned": "In the technical sense, I learned how to implement MySQL databases into Java applications, as well as manage the data in these tables through formulated SQL statements. Besides these, I also learned the basics of GitHub. In terms of my soft skills, I learned that your effort in showing up for others and the support you provide them is what makes you, not just a great friend, but a great leader as well."
+    },
+    {
+        "id": "proj3",
+        "title": "Hotel Reservation System",
+        "demo": "",
+        "gitLink": "https://github.com/strangeshands/PROG3-MCO1",
+        "desc": "A Java Swing application that manages hotel room selection, viewing, and reservation, as well as pricing for different types of rooms",
+        "contrib": "This project was done in teams of two. My partner did most of the work in both the front and back-end of the app. I mostly worked on the back-end as I could not pick up the GUI implementation as quickly as she did.",
+        "learned": "Before databases, we stored everything locally and it disappeared as soon as the app was terminated. We learned a lot about Java and object-oriented principles. Although it was challenging for me, we were able to pull through and complete the application."
+    },
+    {
+        "id": "proj2",
+        "title": "State of Global Air Dataset Manager",
+        "demo": "",
+        "gitLink": "n/a",
+        "desc": "A C application that sorted the mentioned dataset in terms of meaningful questions.",
+        "contrib": "This project was also supposed to be done in teams of two but my partner had dropped the course in the middle of the term. Despite working on it alone, I still found it quite fun! The dataset itself was taken from real-world data compiled by the Health Effects Institute (HEI). Before starting, we made questions that could be answered through sorting this dataset. An example of this could be 'In desceneding order, which countries had the worst quality of air across x time period?' In the end, I did everything by myself from implementing sort functions to follow questions, to  building the application itself.",
+        "learned": "I thought that this project was really fun because playing with strings and new types of data types in C was really interesting to me. My professor supplied us with multiple exercises that helped us fully understand the topics that our course covered."
+    },
+    {
+        "id": "proj1",
+        "title": "Elevens Game",
+        "demo": "",
+        "gitLink": "n/a",
+        "desc": "The classic game elevens reimagined through C, run on the command line and implementing a colored interface.",
+        "contrib": "This project was my very first in my career as a computer science student. I did everything from scratch as our instructor at the time told us that we had full freedom of how it worked or looked like so long as we don't ask for help from AI or search up tutorials on how to do everything step-by-step. Because I wasn't used to this new way of studying, I remember just sitting at the dining table staring blankly at nothing and all I could think of was how I was supposed to make everything work.",
+        "learned": "I was very proud of this project because I was able to catch up to the level my other peers were at despite not being as smart or talented at logic or problem-solving as they are. I designed the flow of how one thing should cause another and how I was supposed to implement that through C. Though our prof deemed it unnecessary and would not garner any additional points, I also made the actual interface colored. I only learned that I could do this through a friend who was taking the same course as I was. Though it was challenging, this project made me prove to myself that I do deserve to be in this course and not all hope was lost."
+    }
+]
